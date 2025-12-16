@@ -188,15 +188,15 @@ label:has(~ .tl-input), label:has(~.tl-textarea) {
 
 /* Reorder video controls: Skip Backward, Play/Pause, Skip Forward */
 .video-js .vjs-skip-backward {
-    order: -2 !important;
+    order: -2;
 }
 
 .video-js .vjs-play-control {
-    order: -1 !important;
+    order: -1;
 }
 
 .video-js .vjs-skip-forward {
-    order: 0 !important;
+    order: 0;
 }
 
 .video-js .vjs-play-progress {
