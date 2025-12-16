@@ -186,6 +186,19 @@ label:has(~ .tl-input), label:has(~.tl-textarea) {
     background: linear-gradient(0deg, rgba(0, 0, 0, .25) 20%, transparent) !important;
 }
 
+/* Reorder video controls: Skip Backward, Play/Pause, Skip Forward */
+.video-js .vjs-skip-backward {
+    order: -2 !important;
+}
+
+.video-js .vjs-play-control {
+    order: -1 !important;
+}
+
+.video-js .vjs-skip-forward {
+    order: 0 !important;
+}
+
 .video-js .vjs-play-progress {
     background-color: #3070b3 !important;
 }
